@@ -1,4 +1,4 @@
-# SurfStatusLED
+# SurfScraperLED
 <hr>
 This project could be used to scrape the surf status of a specific surf spot from Surfline.com and display the result using a red, yellow and green LED (like a traffic light) that are connected via Raspberry PI 3 B. <br><br>
 
