@@ -3,7 +3,7 @@
 ## Purpose
 
 
-This project could be used to scrape the current surf conditions (surf status) of a specific surf spot from [Surfline](https://www.surfline.com/) and display the result using a red, yellow and green LED (like a traffic light) that are connected via Raspberry PI 3 B.
+This project can be used to scrape the current surf conditions (surf status) of a specific surf spot from [Surfline](https://www.surfline.com/) and display the result using a red, yellow and green LED (like a traffic light) that are connected via Raspberry PI 3 B.
 
 ![Screenshot](https://user-images.githubusercontent.com/87895941/155831384-48abbec6-0f75-4441-9064-f9ceadfe6eca.jpeg)
 
