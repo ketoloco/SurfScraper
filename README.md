@@ -5,7 +5,7 @@
 
 This project can be used to scrape the current surf conditions (surf status) of a specific surf spot from [Surfline](https://www.surfline.com/) and display the result using a red, yellow and green LED (like a traffic light) that are connected via Raspberry PI 3 B.
 
-![Screenshot](https://user-images.githubusercontent.com/87895941/155831384-48abbec6-0f75-4441-9064-f9ceadfe6eca.jpeg)
+![Screenshot](https://user-images.githubusercontent.com/87895941/155831384-48abbec6-0f75-4441-9064-f9ceadfe6eca.jpeg =250x)
 
 The project has been set up as multiple Python class objects called SurfScraper (scrapes the information) and SurfStatusLight (Turns off and on LED's according to scraped surf status).
 
