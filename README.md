@@ -1,4 +1,4 @@
-# SurfLED
+# Surf Conditions LED
 
 ## Purpose
 
