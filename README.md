@@ -1,14 +1,33 @@
-# SurfScraperLED
-<hr>
-This project could be used to scrape the surf status of a specific surf spot from Surfline.com and display the result using a red, yellow and green LED (like a traffic light) that are connected via Raspberry PI 3 B. <br><br>
+# SurfStatusLED
+
+## Purpose
+
+
+This project could be used to scrape the current surf conditions (surf status) of a specific surf spot from [Surfline](https://www.surfline.com/) and display the result using a red, yellow and green LED (like a traffic light) that are connected via Raspberry PI 3 B.
+
+![Screenshot](https://user-images.githubusercontent.com/87895941/155831384-48abbec6-0f75-4441-9064-f9ceadfe6eca.jpeg)
 
 The project has been set up as multiple Python class objects called SurfScraper (scrapes the information) and SurfStatusLight (Turns off and on LED's according to scraped surf status).
 
-To scrape the surf status and set the lights accordingly, you'll need to set up the environment:
+## Setup
+
+To scrape the surf status and set the lights accordingly, you'll need to do the following
+
+1) set up the environment:
 
 `pip install -r requirements.txt`
 
-In the SurfScraper "__init__" function the url of the specific surf spot on Surfline.com can be set.
+2) Install chromedriver for Chromium
+
+`sudo apt-get install chromium-chromedriver`
+
+If not using the chromium browser you will need to download the fitting ![chromedriver](https://chromedriver.chromium.org/downloads) for you browser and adjust the corresponding arguments in the script accordingly.
+
+3) Wire Raspberry PI and LEDs. Example for Raspberry PI 3 B pin out ![here](https://www.etechnophiles.com/wp-content/uploads/2020/12/R-PI-pinout.jpg?ezimgfmt=rs%3Adevice%2Frscb40-1).
+
+## How it works
+
+In the SurfScraper "__init__" function the url of the specific surf spot from Surfline.com that should be scraped  needs to be set.
 
 ```
 self.url = 'https://www.surfline.com/surf-report/bondi-beach/5842041f4e65fad6a7708bf8?camId=5d4819606fe847165bae11b2' 
@@ -47,14 +66,12 @@ This python script is then beeing executed in consistent periods via cronjob. Th
 
 
 
-Prerequisites to create the SurfScraperLED:
+## Technical components utilized for project
 
-Technical components utilized:
-Raspberry Pi 3 B
-1 TrafficLight LEDs ("Amazon.com: Pi Traffic Light for the Raspberry Pi (2 pack) : Electronics" https://www.amazon.com/Pi-Traffic-Light-Raspberry-pack/dp/B00RIIGD30)
-3 Male-to-Female connectors (
-"Amazon.com: ELEGOO 120pcs Multicolored Dupont Wire 40pin Male to Female, 40pin Male to Male, 40pin Female to Female Breadboard Jumper Wires Ribbon Cables Kit Compatible with Arduino Projects : Electronics" https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=mp_s_a_1_3?crid=PW0DMJ2QAA35&keywords=female-to+male+dupont+breadboard&qid=1645836784&sprefix=female-to+male+dupont+breadb%2Caps%2C311&sr=8-3)
-Picture of wirr
+1 * Raspberry Pi 3 B (other RPI versions should work as well)
+1 * ![Pi Traffic Light LEDs](https://www.amazon.com/Pi-Traffic-Light-Raspberry-pack/dp/B00RIIGD30)
+3 * ![F-M Dupont wire](https://www.amazon.com/dp/B01EV70C78/ref=cm_sw_em_r_mt_dp_4YDD4VEGT1V00Z8MD2FH?_encoding=UTF8&psc=1)
+
 
 
 Hope this is useful!
