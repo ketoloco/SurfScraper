@@ -21,9 +21,9 @@ To scrape the surf status and set the lights accordingly, you'll need to do the 
 
 `sudo apt-get install chromium-chromedriver`
 
-If not using the chromium browser you will need to download the fitting ![chromedriver](https://chromedriver.chromium.org/downloads) for you browser and adjust the corresponding arguments in the script accordingly.
+If not using the chromium browser you will need to download the fitting [chromedriver](https://chromedriver.chromium.org/downloads) and adjust the corresponding arguments in the script accordingly.
 
-3) Wire Raspberry PI and LEDs. Example for Raspberry PI 3 B pin out ![here](https://www.etechnophiles.com/wp-content/uploads/2020/12/R-PI-pinout.jpg?ezimgfmt=rs%3Adevice%2Frscb40-1).
+3) Wire Raspberry PI and LEDs. Example for Raspberry PI 3 B pin out [here](https://www.etechnophiles.com/wp-content/uploads/2020/12/R-PI-pinout.jpg?ezimgfmt=rs%3Adevice%2Frscb40-1).
 
 ## How it works
 
@@ -69,8 +69,8 @@ This python script is then beeing executed in consistent periods via cronjob. Th
 ## Technical components utilized for project
 
 1 * Raspberry Pi 3 B (other RPI versions should work as well)
-1 * ![Pi Traffic Light LEDs](https://www.amazon.com/Pi-Traffic-Light-Raspberry-pack/dp/B00RIIGD30)
-3 * ![F-M Dupont wire](https://www.amazon.com/dp/B01EV70C78/ref=cm_sw_em_r_mt_dp_4YDD4VEGT1V00Z8MD2FH?_encoding=UTF8&psc=1)
+1 * [Pi Traffic Light LEDs](https://www.amazon.com/Pi-Traffic-Light-Raspberry-pack/dp/B00RIIGD30)
+3 * [F-M Dupont wire](https://www.amazon.com/dp/B01EV70C78/ref=cm_sw_em_r_mt_dp_4YDD4VEGT1V00Z8MD2FH?_encoding=UTF8&psc=1)
 
 
 
