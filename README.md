@@ -45,4 +45,16 @@ In the next step the LED's will be turned on based on the numeric status.
 This python script is then beeing executed in consistent periods via cronjob. The LED's are on as long there is a forecast. 
 
 
+
+
+Prerequisites to create the SurfScraperLED:
+
+Technical components utilized:
+Raspberry Pi 3 B
+1 TrafficLight LEDs ("Amazon.com: Pi Traffic Light for the Raspberry Pi (2 pack) : Electronics" https://www.amazon.com/Pi-Traffic-Light-Raspberry-pack/dp/B00RIIGD30)
+3 Male-to-Female connectors (
+"Amazon.com: ELEGOO 120pcs Multicolored Dupont Wire 40pin Male to Female, 40pin Male to Male, 40pin Female to Female Breadboard Jumper Wires Ribbon Cables Kit Compatible with Arduino Projects : Electronics" https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=mp_s_a_1_3?crid=PW0DMJ2QAA35&keywords=female-to+male+dupont+breadboard&qid=1645836784&sprefix=female-to+male+dupont+breadb%2Caps%2C311&sr=8-3)
+Picture of wirr
+
+
 Hope this is useful!
