@@ -23,7 +23,7 @@ To scrape the surf status and set the lights accordingly, you'll need to do the 
 
 If not using the chromium browser you will need to download the fitting [chromedriver](https://chromedriver.chromium.org/downloads) and adjust the corresponding arguments in the script accordingly.
 
-3) Wire Raspberry PI and LEDs. Example for Raspberry PI 3 B pin out [here](https://www.etechnophiles.com/wp-content/uploads/2020/12/R-PI-pinout.jpg?ezimgfmt=rs%3Adevice%2Frscb40-1).
+3) Wire Raspberry PI and LEDs. Example for Raspberry PI 3 B pin out [here](https://www.etechnophiles.com/wp-content/uploads/2020/12/R-PI-pinout.jpg?ezimgfmt=rs%3Adevice%2Frscb40-1) and a [picture](https://user-images.githubusercontent.com/87895941/155832998-973a9dc5-62f1-4059-a301-09ab68dc8097.jpg) of the wiring. 
 
 ## How it works
 
