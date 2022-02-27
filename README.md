@@ -61,7 +61,7 @@ In the next step the LED's will be turned on based on the numeric status.
             GPIO.output(11, True) # Turns on the Green LED
 ```
 
-This python script is then beeing executed in consistent periods via cronjob. The LED's are on as long there is a forecast. 
+This python script is then beeing executed in consistent periods via cronjob. The LED's are on as long surf conditions are published for the spot. 
 
 
 
