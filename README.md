@@ -69,7 +69,7 @@ This python script is then beeing executed in consistent periods via cronjob. Th
 
 ## Technical components utilized for project
 
-1 * [Raspberry Pi 3 B](https://www.amazon.com/Raspberry-Pi-MS-004-00000024-Model-Board/dp/B01LPLPBS8) (This is just the board. better to get a full RPi Starter Kit or similar)
+1 * [Raspberry Pi 3 B](https://www.amazon.com/Raspberry-Pi-MS-004-00000024-Model-Board/dp/B01LPLPBS8) (This is just the board, better to get a full RPi Starter Kit or similar)
 
 1 * [Pi Traffic Light LEDs](https://www.amazon.com/Pi-Traffic-Light-Raspberry-pack/dp/B00RIIGD30)
 
