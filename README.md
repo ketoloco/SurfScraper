@@ -4,7 +4,7 @@ This project was born by scratching the personal itch of not being always up-to-
 
 ## Requirements
 
-4/25/2022 Recently Surfline changed the access to the surf report only beeing available unlimited when having a payed Premium account. Consequently this script requires you to be logged in your premium account while running it.
+4/25/2022 Update: Recently Surfline changed the access to the surf report only beeing available unlimited when having a payed Premium account. Consequently this script requires you to be logged in your premium account while running it.
 
 ## Purpose
 
